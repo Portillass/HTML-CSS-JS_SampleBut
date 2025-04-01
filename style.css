@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+    margin: 0;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background: #0077b6;
+    color: rgb(104, 72, 72);
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: 0.3s;
+}
+.btn::hover{
+    background: #1a1111;
+    transform: scale(1.1);
+}
